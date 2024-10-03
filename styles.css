@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+
+main{
+    margin: 35px;
+}
+
+
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: light;
+}
+
+.outfit-regular {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.outfit-semi-bold {
+    font-family: "Outfit", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+} 
+.outfit-bold {
+    font-family: "Outfit", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}  
+#prep-time{
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 20px;
+}
+#preparation-time{
+    color:hsl(332, 51%, 32%);
+}
+.subtitle{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: light;
+    color: hsl(14, 45%, 36%);
+}
+.bullet-format{
+    padding-left: 20px;
+    padding-top: 10px;
+    color:hsl(30, 10%, 34%)
+}
+hr {
+    border: 0;
+    height: 0.2px;       /* Thickness of the line */
+    background-color: #9d9d9d;  /* Color of the line */
+}
+.number-bullet-format{
+    padding-left: 20px;
+    padding-top: 10px;
+    color:hsl(30, 10%, 34%)
+}
+.number-bullet-format-color ol {
+    list-style: decimal; 
+}
+
+.number-bullet-format-color li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.row-format-1{
+    color:hsl(30, 10%, 34%);
+    text-align: left;
+    padding: 5px;
+}
+
+.row-format-2{
+    color: hsl(14, 45%, 36%);
+    font-weight: 900;
+    padding: 5px;
+    padding-left: 140px;
+}
+tr {
+    border-bottom: 1px solid #ccc; /* Light gray line between rows */
+}
+table {
+    width: 100%; /* Full-width table */
+    border-collapse: collapse; /* Ensures borders collapse into a single line */
+    margin: 40px 0; /* Adds some space around the table */
+}
+
+@media (max-width:375px){
+    img {
+
+    }
+    
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
